@@ -1,0 +1,60 @@
+
+body{
+    background-image: url('../ImageSources/images\ \(1\).jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+.head-style{
+    background: green;
+    border-radius: 5px;
+}
+.Todo-box{
+    border: 1px solid #616161;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #616161;
+   background-color: aliceblue;
+   width: 60%;
+}
+.Todo-box h3{
+    margin: 10px;
+   
+}
+.w-30{
+    width:100px
+}
+.showList{
+    border: 1px solid #616161;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   background-color: aliceblue;
+   
+}
+.showList li{
+    list-style: none;
+   
+    margin-bottom: 2px;
+}
+.btn-style{
+    height: 36px;
+    width: 113px;
+}
+.checkbox-btn{
+    display: flex;
+    justify-content:space-around ;
+    margin: 10px;
+}
+.remove-btn{
+    border-radius: 20px;
+    background: #707171;
+}
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 5px; /* Optional spacing */
+}
+span {
+    vertical-align: -1;
+}
